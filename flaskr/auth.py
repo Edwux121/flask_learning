@@ -19,9 +19,9 @@ def register():
         error = None
 
         if not username:
-            error = "Username is required!"
+            error = "Incorrect credentials!"
         elif not password:
-            error = "Password is required!"
+            error = "Incorrect credentials!"
 
         if error is None:
             try:
